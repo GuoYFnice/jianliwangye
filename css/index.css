@@ -1,0 +1,359 @@
+/*
+* @Author: GuoYF
+* @Date:   2018-03-27 14:49:01
+* @Last Modified by:   GuoYF
+* @Last Modified time: 2018-03-28 21:13:47
+*/
+.both{
+	background: #444 url(../img/1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	overflow:hidden;
+}
+.newboth{
+	background: #444 url(../img/111.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	overflow:hidden;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+
+}
+a{
+	cursor: pointer;
+}
+.b{
+	font-weight: 700;
+}
+ul{
+	margin: 0;
+}
+h1{
+	margin:0;
+}
+h2{
+	margin:0;
+}
+/*导航栏*/
+nav{
+	
+	width: 100%;
+	position:fixed;
+	/*background: rgba(0,0,0,0.4);*/
+	height: 50px;
+}
+
+.fixnav{
+	width: 100%;
+	position:fixed;
+	background:#58B19F; 
+	height: 50px;
+	 z-index:9999!important；
+}
+
+nav ul{
+	list-style: none;
+	margin:0;
+	height: 100%;
+	line-height: 50px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	height: 50px;
+}
+nav .small-nav{
+	float: right;
+	padding: 0 50px;
+}
+.logo{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	float: left;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.logo a{
+
+	text-decoration: none;
+	color: #fff;
+}
+/*介绍*/
+.banner{
+	background: rgba(0,0,0,0.4);
+	height:750px;
+}
+.banner .center{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	position: relative;
+	top:250px;
+}
+.banner .center h1{
+	margin: 0;
+	padding: 20px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	font-size: 25px;
+}
+.banner .center .center-txt{
+	line-height:20px;
+	margin-top:20px;
+	font-size: 15px; 
+
+}
+/*button{
+	border: none;
+	margin-top: 50px;
+	padding: 10px 20px;
+	background: #fff;
+	color: #eee;
+}*/
+.banner .center .more{
+	margin-top: 200px;
+	cursor: pointer;
+}
+/*第一部分*/
+.one-part{
+	width: 100%;
+	padding:100px 0;
+/*	background: #089d80;*/
+	background: #ffb142;
+	text-align: center;
+	color: #fff;
+}
+.one-part .wrapper{
+	margin:0 auto;
+	width: 60%;
+}
+.hr{
+	margin: 20px auto;
+	width: 60%;
+	height: 1px;
+	background: #fff;
+}
+.wrapper .icon-group{
+	margin-top: 50px;
+	text-align:center;
+}
+.kuai{
+	display: inline-block;
+	padding: 10px 25px;
+}
+.icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background: #D27D05;
+	transform: rotate(45deg);
+	margin:30px;
+}
+.icon .fa{
+	margin-top:15px;
+	font-size: 50px;
+	transform: rotate(-45deg);
+}
+/*第二部分*/
+.two-part{
+	/*background:#252f34;*/
+	background: #aaa69d;
+}
+.view:nth-child(odd){
+	background-color: rgba(255,255,255,0.25);
+}
+.view{
+	width: 100%;
+	color: #000;
+}
+.photo{
+	width: 45%;
+}
+.photo img{
+	width: 100%;
+}
+.view .photo-txt{
+	width:55%;
+
+
+}
+.view >div{
+	float: left;
+}
+.view:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.view .photo-txt{
+	position: relative;
+	top:45px;
+	left:75px;
+}
+.view .photo-txt h2{
+	margin-bottom: 15px;
+}
+.view .photo-txt .fubiaoti{
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+.view .photo-txt p{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.photo-txt >*{
+	max-width: 90%;
+}
+/*第三部分*/
+.three-part{
+	color: #fff;
+	/*background:#3f3965;#33d9b2*/
+	background: #82589F;
+	width: 100%;
+}
+.warpper{
+	text-align: center;
+	margin:0 auto;
+	width: 60%; 
+	padding-top: 20px;
+}
+
+.warpper .neirong{
+	margin-bottom:30px;
+}
+.card-group{
+	text-align: center;
+	width: 60%;
+	margin:0 auto;
+	padding-bottom: 50px;
+}
+.card{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	
+}
+.card:first-child{
+	background: rgba(0,0,0,0.02);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.04);
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.06);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.08);
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.10);
+}
+.card:nth-child(6){
+	background: rgba(0,0,0,0.12);
+}
+/*footer*/
+.toumin{
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	min-height: 180px;
+	text-align: center;
+	color: #fff;
+}
+.w{
+	width: 60%;
+	margin: 0 auto;
+	padding: 50px;
+}
+.zuo{
+	display: inline-block;
+	margin: 20px;
+	text-align: left;
+}
+.you{
+	margin-left: 50px;
+	display: inline-block;
+}
+.you button{
+	border: none;
+	outline: none;
+	background: #ff5252;
+	display: block;
+	margin: 10px;
+	color: #fff;
+	width: 160px;
+	padding:10px 10px;
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	min-height:200px; 
+	color: #fff;
+	background: #2c2c54;
+	/*background: #333;*/
+}
+.footer .list{
+	list-style: none;
+	padding-top: 20px;
+	padding-left: 0;
+}
+.footer .list li{
+	padding:20px;
+	display: inline-block;
+}
+.footer .copy{
+	margin-top: 80px;
+}
+/*菜单*/
+.mask{
+	display: none;
+	position: fixed;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+}
+.menu{
+	width: 200px;
+	background: #2C3A47;
+	position: fixed;
+	top: 0;
+	right: -200px;
+	bottom: 0;
+	color: #fff;
+	padding:30px 0;
+	transition: right 0.5s;
+}
+.menu .menus{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+.menus a{
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	padding:10px 30px;
+	width: 100%;
+	
+}
+.menus a:hover{
+	background: #000;
+}
